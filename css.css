@@ -2,14 +2,23 @@
 	width: 850px;
 	height: 850px;
 	display: inline-block;
+	border-top: 3px solid #E17101;
+	border-bottom: 3px solid #E17101;
+	border-right: 3px solid #E17101;
+	border-left: 3px solid #E17101;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+
 }
 .region{
 	margin:0;
 	margin-right: 0px;
 	margin-left: 0px;
 	padding:0;
-	width: 30%;
-	height: 30%;
+	width: 33%;
+	height: 33%;
 	border-color: #000;
 	vertical-align: top;
 	display: inline-block;
