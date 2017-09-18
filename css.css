@@ -1,0 +1,30 @@
+.tablero {
+	width: 850px;
+	height: 850px;
+	border-color: red;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	display: inline-block;
+}
+.region{
+	border-style: solid;
+	border-color: #000;
+	width: 266.666666666px;
+	height: 266.66666666px;
+	border-color: #000;
+	vertical-align: top;
+	display: inline-block;
+
+}
+.celda{
+	margin:0;
+	padding:0;
+	border-style: solid;
+	border-color: #000;
+	width: 88.888888px;
+	height: 88.888888px;
+	display: inline-block;
+	vertical-align: top;
+}
