@@ -7,13 +7,13 @@ body {
 }
 
 .tablero {
-	width: 55%;
-	height: 90%;
+	width: 40%;
+	height: 70%;
 	display: inline-block;
 	border-top: 4px solid #E17101;
-	border-bottom: 4px solid #E17101;
-	border-right: 4px solid #E17101;
-	border-left: 4px solid #E17101;
+	border-bottom: 1px solid #E17101;
+	border-right: 0px solid #E17101;
+	border-left: 5px solid #E17101;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
@@ -27,7 +27,8 @@ body {
 	box-sizing: border-box;
 	width: 33.333%;
 	height: 33.333%;
-	border-color: #000;
+	border-bottom: 4px solid #E17101;
+	border-right: 4px solid #E17101;
 	vertical-align: top;
 	display: inline-block;
 	text-align:left;
@@ -37,8 +38,8 @@ body {
 .celda{
 	margin:0;
 	padding:0;
-	border-style: solid;
-	border-color: #000;
+	border-bottom: 1px solid #E17101;
+	border-right: 1px solid #E17101;
 	box-sizing: border-box;
 	width: 33.3333%;
 	height: 33.333%;
