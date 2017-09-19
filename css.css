@@ -46,14 +46,14 @@ body {
 	vertical-align: top;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
+input[type="numeric"]::-webkit-outer-spin-button,
+input[type="numeric"]::-webkit-inner-spin-button {
    -webkit-appearance: none;
    margin: 0;
 }
 
-input[type="number"] {
-   -moz-appearance: textfield;
+input[type="numeric"] {
+  -moz-appearance: textfield;
 	width: 100%;
 	height: 100%;
 	text-align: center;

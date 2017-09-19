@@ -1,6 +1,6 @@
 for (var i = 0; i<9; i++){
-	document.getElementById('tablero').insertAdjacentHTML('beforeend','<div class="Region" id='+i +'></div> ');
+	document.getElementById('tablero').insertAdjacentHTML('beforeend','<div class="Region" id='+i +'></div>');
 	for (var j =0; j<9; j++){
-		document.getElementById(i).insertAdjacentHTML('beforeend','<div class="Celda" id='+ i + '-' + j + '> <input type="number"> </div>');
+		document.getElementById(i).insertAdjacentHTML('beforeend','<div class="Celda" id='+ i + '-' + j + '><input type="numeric" maxlength ="1" min="1" max="9"></div>');
 	}
 }
