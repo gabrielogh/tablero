@@ -7,18 +7,26 @@ body {
 }
 
 .tablero {
-	width: 850px;
-	height: 850px;
+	width: 55%;
+	height: 90%;
 	display: inline-block;
-
+	border-top: 4px solid #E17101;
+	border-bottom: 4px solid #E17101;
+	border-right: 4px solid #E17101;
+	border-left: 4px solid #E17101;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
 
 }
 
 .region{
-	margin:-3;
-	padding:-1;
-	width: 33%;
-	height: 33%;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	width: 33.333%;
+	height: 33.333%;
 	border-color: #000;
 	vertical-align: top;
 	display: inline-block;
@@ -27,12 +35,13 @@ body {
 }
 
 .celda{
-	margin:-1;
-	padding:-1;
+	margin:0;
+	padding:0;
 	border-style: solid;
 	border-color: #000;
-	width: 31.19%;
-	height: 32%;
+	box-sizing: border-box;
+	width: 33.3333%;
+	height: 33.333%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -48,7 +57,7 @@ input[type="number"] {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font-size: 10vh;
+	font-size: 6vh;
 	overflow: hidden;
 }
 
