@@ -50,6 +50,10 @@ div:focus{
 	vertical-align: top;
 }
 
+.teclado {
+	position: fixed;
+}
+
 input[type="numeric"]::-webkit-outer-spin-button,
 input[type="numeric"]::-webkit-inner-spin-button {
    -webkit-appearance: none;
