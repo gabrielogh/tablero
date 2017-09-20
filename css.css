@@ -50,7 +50,44 @@ div:focus{
 	vertical-align: top;
 }
 
+.botonTeclado{
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+	background-color: #E17101;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.botonTeclado:hover {
+    background-color: #EBF5FB;
+    color: #000;
+}
+
+.botonClear{
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+	background-color: #EBF5FB;
+	border: none;
+	color: #000;
+	font-size: 12px;
+}
+
+.botonClear:hover {
+  background-color: #AED6F1;
+  color: #000;
+}
+
 .teclado {
+	border-top: 1px solid #E17101;
+	border-bottom: 1px solid #E17101;
+	border-right: 1px solid #E17101;
+	border-left: 1px solid #E17101;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  background-color: #FAE5D3;
 	position: fixed;
 }
 

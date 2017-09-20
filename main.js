@@ -20,11 +20,11 @@ function numeros(event, i, j) {
 			celdaTemp = document.getElementById('r'+k);
 			for (var l = 2; l >= 0; l--) {
 				num = (k*3)-l;
-				celdaTemp.insertAdjacentHTML('beforeend', '<th> <button onClick="insertNum('+i+', '+j+', '+num+')">'+num+'</button> </th> ');
+				celdaTemp.insertAdjacentHTML('beforeend', '<th> <button class="botonTeclado" onClick="insertNum('+i+', '+j+', '+num+')">'+num+'</button> </th> ');
 			}
 		}
 		table = document.getElementById('target');
-		table.insertAdjacentHTML('beforeend', '<tr>	<th></th> <th> <button onClick="limpiarCelda('+i+', '+j+')" >clear</button></th>	</tr');
+		table.insertAdjacentHTML('beforeend', '<tr>	<th></th> <th> <button class="botonClear" onClick="limpiarCelda('+i+', '+j+')" >clear</button></th>	</tr');
 	}
 	else {
 		table.remove();
