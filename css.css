@@ -6,6 +6,9 @@ body {
 	line-height: 1.5em;
 }
 
+div:focus{
+	background-color: #8BDCD3;
+}
 .tablero {
 	width: 40%;
 	height: 70%;
@@ -25,7 +28,7 @@ body {
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	width: 33.333%;
+	width: 33.29%;
 	height: 33.333%;
 	border-bottom: 4px solid #E17101;
 	border-right: 4px solid #E17101;
