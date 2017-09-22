@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #D7EFFF;
   text-align: center;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
@@ -64,12 +64,26 @@ div:focus{
     color: #000;
 }
 
+.botonTablero{
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+	background-color: #E17101;
+	border: none;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.botonTablero:hover {
+    background-color: #FF0000;
+    color: #fff;
+}
+
 .botonClear{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-	background-color: #EBF5FB;
+	background-color: #FF0000;
 	border: none;
-	color: #000;
+	color: #fff;
 	font-size: 12px;
 }
 
@@ -105,5 +119,3 @@ input[type="numeric"] {
 	font-size: 6vh;
 	overflow: hidden;
 }
-
-
