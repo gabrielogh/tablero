@@ -14,6 +14,6 @@ $(function(){
                 document.getElementById(i).insertAdjacentHTML('beforeend','<div class="Celda" id="'+ i + '-' + j + '" onClick="numeros(event, '+i+', '+j+')"><input id=r' +i+ 'c' +j+ ' type="numeric" maxlength ="1" min="1" max="9" readonly></div>');
             }
         }
-        document.getElementById('ppal').insertAdjacentHTML('beforeend','<input type="submit" value="Nuevo" title="nuevo"><input type="submit" value="Reiniciar" title="enviar"><input type="submit" value="Chequear" title="chequear"><input type="submit" value="Resolver" title="resolver">');
+        document.getElementById('ppal').insertAdjacentHTML('beforeend','<input type="submit" class="botonTablero" value="Nuevo" title="nuevo"><input type="submit" class="botonTablero" value="Reiniciar" title="enviar"><input type="submit" class="botonTablero" value="Chequear" title="chequear"><input type="submit" class="botonTablero" value="Resolver" title="resolver">');
     });
 });
