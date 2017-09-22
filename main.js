@@ -35,6 +35,7 @@ function numeros(event, i, j) {
 function limpiarCelda(i, j) {
 	celda = document.getElementById('r'+i+'c'+j);
 	celda.value="";
+	numeros(i, j);
 }
 
 function insertNum(i, j, k) {
